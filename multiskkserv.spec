@@ -9,6 +9,7 @@ License:	GPL
 Group:		System/Internationalization
 URL:		http://www3.big.or.jp/~sian/linux/products/
 Source0:	%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Conflicts:		mecab-skkserv
 Requires:		skkdic, cdb0.75
 BuildRequires:		cdb0.75-devel
