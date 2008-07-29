@@ -1,5 +1,5 @@
 %define version	20051220
-%define release	%mkrel 2
+%define release	%mkrel 4
 
 Name:		multiskkserv
 Summary:	Simple skk multi-dictionary server
