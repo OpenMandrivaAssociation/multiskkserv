@@ -62,3 +62,33 @@ echo ' '
 %{_bindir}/skkdic-p2cdb
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 20051220-6mdv2011.0
++ Revision: 620419
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 20051220-5mdv2010.0
++ Revision: 430121
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 20051220-4mdv2009.0
++ Revision: 253354
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 20051220-2mdv2008.1
++ Revision: 130367
+- kill re-definition of %%buildroot on Pixel's request
+- import multiskkserv
+
+
+* Wed Dec 21 2005 UTUMI Hirosi <utuhiro78@yahoo.co.jp> 20051220-2mdk
+- new release
+- fix post scripts (Thanks to Yukiko)
+
+* Sun Dec 18 2005 UTUMI Hirosi <utuhiro78@yahoo.co.jp> 20050928-1mdk
+- first spec for Mandriva Linux
