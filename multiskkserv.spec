@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		System/Internationalization
-URL:		http://www3.big.or.jp/~sian/linux/products/
+URL:		https://www3.big.or.jp/~sian/linux/products/
 Source0:	%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Conflicts:		mecab-skkserv
